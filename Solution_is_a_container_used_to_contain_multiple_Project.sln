@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plummy voice", "Plummy voic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Make no mistake", "Make no mistake\Make no mistake.vcxproj", "{CA45A483-900F-4F5B-8945-974793370DF9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reckless", "Reckless\Reckless.vcxproj", "{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{CA45A483-900F-4F5B-8945-974793370DF9}.Release|x64.Build.0 = Release|x64
 		{CA45A483-900F-4F5B-8945-974793370DF9}.Release|x86.ActiveCfg = Release|Win32
 		{CA45A483-900F-4F5B-8945-974793370DF9}.Release|x86.Build.0 = Release|Win32
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Debug|x64.ActiveCfg = Debug|x64
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Debug|x64.Build.0 = Debug|x64
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Debug|x86.Build.0 = Debug|Win32
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Release|x64.ActiveCfg = Release|x64
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Release|x64.Build.0 = Release|x64
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Release|x86.ActiveCfg = Release|Win32
+		{FE05DF7F-FE1A-4CCF-9B28-8BFF0CB67384}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

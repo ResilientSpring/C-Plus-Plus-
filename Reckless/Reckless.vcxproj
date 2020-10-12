@@ -24,7 +24,7 @@
     <ProjectGuid>{fe05df7f-fe1a-4ccf-9b28-8bff0cb67384}</ProjectGuid>
     <RootNamespace>Reckless</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Reckless (Carriage return-linefeed)</ProjectName>
+    <ProjectName>Reckless_(Carriage return-linefeed)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

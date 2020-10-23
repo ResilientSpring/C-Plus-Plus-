@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -14,23 +14,48 @@ int ssIn(string);
 
 int main(void) {
 
+	char ch;
+	int i;
+	float f;
+	char str(80);
+
 	string benchmark_name = "c17";
-	string fileName = "E:\\Users\\JoeDunbar\\Documents\\Verilog_files\\Verilog_files\\" + benchmark_name + "\\" + benchmark_name + ".v"; //input file
-	string testFileName = "E:\\Users\\JoeDunbar\\Documents\\Verilog_files\\Verilog_files\\" + benchmark_name + "\\" + benchmark_name + "test.v"; //input file 
+	string fileName = "E:\\Users\\Plummy\\Documents\\Verilog_files\\Verilog_files\\" + benchmark_name + "\\" + benchmark_name + "test.v"; //input file 
+	string testFileName = "E:\\Users\\Plummy\\Documents\\Verilog_files\\Verilog_files\\" + benchmark_name + "\\" + benchmark_name + "test.v"; //input file 
 	string testName = readFile(fileName);
 	int testInputs = numIn(testFileName);
 	int SSIn = ssIn(testFileName);
 	string Name = readFile(fileName);
 
+	ifstream in(fileName);
+	if (!in) {
+
+		cout << "Cannot open file. \n";
+
+		return 1;
+	}
+
+	in >> i;
+	in >> f;
+	in >> ch;
+	in >> str;
+
+	cout << i << " " << f << " " << ch << "\n";
+	cout << str;
+
+	in.close();
+
+	return 0;
 
 }
 
 string readFile(string fileName) {
 	ifstream inFile;
 	inFile.open(fileName.c_str());
+
 	if (!inFile) {
 
-		cerr << "Unable to open file 2.txt";
+		cout << "Unable to open file.";
 		exit(1);
 	
 	}
@@ -59,4 +84,5 @@ string deleteSpaces(string phrase) {
 	}
 
 	return phrase;
+
 }

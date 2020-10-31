@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d71c956a-033b-4580-988a-d8471b914d05}</ProjectGuid>
-    <RootNamespace>Readingatextfile</RootNamespace>
+    <ProjectGuid>{e0c79671-33ed-4e9a-94a6-a45b2c9c8da9}</ProjectGuid>
+    <RootNamespace>FeettoMeterConversions</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Afterglow.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="c17.txt" />
+    <ClCompile Include="FtoMTable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reading_a_text_file", "Read
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feet to Meter Conversions", "Feet to Meter Conversions\Feet to Meter Conversions.vcxproj", "{E0C79671-33ED-4E9A-94A6-A45B2C9C8DA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Absolute_Value_Function", "Absolute_Value_Function\Absolute_Value_Function.vcxproj", "{57E077AA-90A8-4CBA-910E-37ADF0E86B94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -293,6 +295,18 @@ Global
 		{E0C79671-33ED-4E9A-94A6-A45B2C9C8DA9}.Release|x64.Build.0 = Release|x64
 		{E0C79671-33ED-4E9A-94A6-A45B2C9C8DA9}.Release|x86.ActiveCfg = Release|Win32
 		{E0C79671-33ED-4E9A-94A6-A45B2C9C8DA9}.Release|x86.Build.0 = Release|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Debug|ARM.ActiveCfg = Debug|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Debug|x64.ActiveCfg = Debug|x64
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Debug|x64.Build.0 = Debug|x64
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Debug|x86.ActiveCfg = Debug|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Debug|x86.Build.0 = Debug|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|ARM.ActiveCfg = Release|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|ARM64.ActiveCfg = Release|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x64.ActiveCfg = Release|x64
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x64.Build.0 = Release|x64
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x86.ActiveCfg = Release|Win32
+		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

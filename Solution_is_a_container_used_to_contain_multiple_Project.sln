@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feet to Meter Conversions",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Absolute_Value_Function", "Absolute_Value_Function\Absolute_Value_Function.vcxproj", "{57E077AA-90A8-4CBA-910E-37ADF0E86B94}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The difference between signed and unsigned integers", "The difference between signed and unsigned integers\The difference between signed and unsigned integers.vcxproj", "{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -307,6 +309,18 @@ Global
 		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x64.Build.0 = Release|x64
 		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x86.ActiveCfg = Release|Win32
 		{57E077AA-90A8-4CBA-910E-37ADF0E86B94}.Release|x86.Build.0 = Release|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Debug|x64.ActiveCfg = Debug|x64
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Debug|x64.Build.0 = Debug|x64
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Debug|x86.Build.0 = Debug|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|ARM.ActiveCfg = Release|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|ARM64.ActiveCfg = Release|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x64.ActiveCfg = Release|x64
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x64.Build.0 = Release|x64
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x86.ActiveCfg = Release|Win32
+		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Absolute_Value_Function", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The difference between signed and unsigned integers", "The difference between signed and unsigned integers\The difference between signed and unsigned integers.vcxproj", "{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alphabet", "Alphabet\Alphabet.vcxproj", "{575FD39F-4654-4AC3-A25C-20BF0F35A73D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -321,6 +323,18 @@ Global
 		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x64.Build.0 = Release|x64
 		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x86.ActiveCfg = Release|Win32
 		{2CFDF0BA-16A8-47EF-B64F-018D03EC4A7D}.Release|x86.Build.0 = Release|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Debug|x64.ActiveCfg = Debug|x64
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Debug|x64.Build.0 = Debug|x64
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Debug|x86.ActiveCfg = Debug|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Debug|x86.Build.0 = Debug|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Release|ARM.ActiveCfg = Release|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Release|ARM64.ActiveCfg = Release|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Release|x64.ActiveCfg = Release|x64
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Release|x64.Build.0 = Release|x64
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Release|x86.ActiveCfg = Release|Win32
+		{575FD39F-4654-4AC3-A25C-20BF0F35A73D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

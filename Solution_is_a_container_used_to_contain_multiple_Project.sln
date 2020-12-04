@@ -53,7 +53,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Boolean", "Boolean\Boolean.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Talking to Mars", "Talking to Mars\Talking to Mars.vcxproj", "{B1F97E71-9157-47D2-84FD-4E52D0B27757}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Relational and logical operators", "Relational and logical operators\Relational and logical operators.vcxproj", "{6DBE933C-7033-4AE8-949E-712E54D54AA8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Escape_sequences", "Escape_sequences\Escape_sequences.vcxproj", "{78DA71F9-78E7-4888-A5B4-95F77503BC35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Escape_sequences2", "Escape_sequences2\Escape_sequences2.vcxproj", "{E462CEA3-2CC7-42BB-95C5-4393B1EC4EC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dynamic initialization", "Dynamic initialization\Dynamic initialization.vcxproj", "{3D17FD61-7AF1-494B-B6AF-81D9C34BCFAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modulus", "Modulus\Modulus.vcxproj", "{67530D8E-6F83-4093-91E6-EC22D12047D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -379,18 +385,6 @@ Global
 		{B1F97E71-9157-47D2-84FD-4E52D0B27757}.Release|x64.Build.0 = Release|x64
 		{B1F97E71-9157-47D2-84FD-4E52D0B27757}.Release|x86.ActiveCfg = Release|Win32
 		{B1F97E71-9157-47D2-84FD-4E52D0B27757}.Release|x86.Build.0 = Release|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Debug|ARM.ActiveCfg = Debug|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Debug|ARM64.ActiveCfg = Debug|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Debug|x64.ActiveCfg = Debug|x64
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Debug|x64.Build.0 = Debug|x64
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Debug|x86.ActiveCfg = Debug|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Debug|x86.Build.0 = Debug|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Release|ARM.ActiveCfg = Release|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Release|ARM64.ActiveCfg = Release|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Release|x64.ActiveCfg = Release|x64
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Release|x64.Build.0 = Release|x64
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Release|x86.ActiveCfg = Release|Win32
-		{6DBE933C-7033-4AE8-949E-712E54D54AA8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XOR", "XOR\XOR.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "if-else-if ladder", "if-else-if ladder\if-else-if ladder.vcxproj", "{33AA669F-94D4-45E5-8C37-30AE2ACD5B42}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch", "Switch\Switch.vcxproj", "{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -461,6 +463,18 @@ Global
 		{33AA669F-94D4-45E5-8C37-30AE2ACD5B42}.Release|x64.Build.0 = Release|x64
 		{33AA669F-94D4-45E5-8C37-30AE2ACD5B42}.Release|x86.ActiveCfg = Release|Win32
 		{33AA669F-94D4-45E5-8C37-30AE2ACD5B42}.Release|x86.Build.0 = Release|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Debug|ARM.ActiveCfg = Debug|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Debug|x64.ActiveCfg = Debug|x64
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Debug|x64.Build.0 = Debug|x64
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Debug|x86.Build.0 = Debug|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Release|ARM.ActiveCfg = Release|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Release|ARM64.ActiveCfg = Release|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Release|x64.ActiveCfg = Release|x64
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Release|x64.Build.0 = Release|x64
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Release|x86.ActiveCfg = Release|Win32
+		{9F4A62C9-85D7-4FA1-987D-74887BE20B1A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

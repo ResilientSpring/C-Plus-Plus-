@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "For_loop_null_body", "For_l
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loop_control_variable", "Loop_control_variable\Loop_control_variable.vcxproj", "{55F0A28C-F736-484F-9F63-65E9BB38EE65}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Creating a function", "Creating a function\Creating a function.vcxproj", "{F0108FFF-E342-4375-95A3-ABFBCC842245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -587,6 +589,18 @@ Global
 		{55F0A28C-F736-484F-9F63-65E9BB38EE65}.Release|x64.Build.0 = Release|x64
 		{55F0A28C-F736-484F-9F63-65E9BB38EE65}.Release|x86.ActiveCfg = Release|Win32
 		{55F0A28C-F736-484F-9F63-65E9BB38EE65}.Release|x86.Build.0 = Release|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Debug|ARM.ActiveCfg = Debug|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Debug|x64.ActiveCfg = Debug|x64
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Debug|x64.Build.0 = Debug|x64
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Debug|x86.Build.0 = Debug|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Release|ARM.ActiveCfg = Release|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Release|ARM64.ActiveCfg = Release|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Release|x64.ActiveCfg = Release|x64
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Release|x64.Build.0 = Release|x64
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Release|x86.ActiveCfg = Release|Win32
+		{F0108FFF-E342-4375-95A3-ABFBCC842245}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

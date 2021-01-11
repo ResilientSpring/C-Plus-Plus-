@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested loops", "Nested loop
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Help3", "Help3\Help3.vcxproj", "{E15AD3F2-B6EE-405E-9F5A-60FE56DB0956}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested_loops", "Project2\Project2.vcxproj", "{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -755,6 +757,18 @@ Global
 		{E15AD3F2-B6EE-405E-9F5A-60FE56DB0956}.Release|x64.Build.0 = Release|x64
 		{E15AD3F2-B6EE-405E-9F5A-60FE56DB0956}.Release|x86.ActiveCfg = Release|Win32
 		{E15AD3F2-B6EE-405E-9F5A-60FE56DB0956}.Release|x86.Build.0 = Release|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Debug|x64.ActiveCfg = Debug|x64
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Debug|x64.Build.0 = Debug|x64
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Debug|x86.ActiveCfg = Debug|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Debug|x86.Build.0 = Debug|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|ARM.ActiveCfg = Release|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|ARM64.ActiveCfg = Release|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x64.ActiveCfg = Release|x64
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x64.Build.0 = Release|x64
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x86.ActiveCfg = Release|Win32
+		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

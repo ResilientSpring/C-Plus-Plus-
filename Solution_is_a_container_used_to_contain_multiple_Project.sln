@@ -109,6 +109,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Help3", "Help3\Help3.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested_loops", "Project2\Project2.vcxproj", "{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Self-test page 119", "Self-test page 119\Self-test page 119.vcxproj", "{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -769,6 +771,18 @@ Global
 		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x64.Build.0 = Release|x64
 		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x86.ActiveCfg = Release|Win32
 		{C70CD2BB-8AEF-41DA-BCB4-BAAE448D1D03}.Release|x86.Build.0 = Release|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Debug|ARM.ActiveCfg = Debug|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Debug|x64.ActiveCfg = Debug|x64
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Debug|x64.Build.0 = Debug|x64
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Debug|x86.ActiveCfg = Debug|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Debug|x86.Build.0 = Debug|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Release|ARM.ActiveCfg = Release|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Release|ARM64.ActiveCfg = Release|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Release|x64.ActiveCfg = Release|x64
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Release|x64.Build.0 = Release|x64
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Release|x86.ActiveCfg = Release|Win32
+		{046BB2D5-27C6-4064-B34A-5EFCE6CB686F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

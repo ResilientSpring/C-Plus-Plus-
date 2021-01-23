@@ -31,7 +31,7 @@ int main() {
 
 	// The number of passes required to ensure that the entry is sorted
 	// is equal to one less than the number of elements in the array.
-	for(a = 1 ; a < size; a++)  
+	for (a = 1 ; a < size; a++)  
 	// The outer loop causes the process to repeat until the entire array has been sorted. 
 
 		// The inner loop checks adjacent elements in the array, looking for out-of-order elements. 

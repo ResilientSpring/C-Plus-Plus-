@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two-dimensional array", "Tw
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Read string new", "Read string new\Read string new.vcxproj", "{0BC98C19-0660-4BF4-8FA6-EE82D6D5AEF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String_functions", "String_functions\String_functions.vcxproj", "{8A2E93C8-85D0-40FF-9226-B6B8056CE072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -867,6 +869,18 @@ Global
 		{0BC98C19-0660-4BF4-8FA6-EE82D6D5AEF0}.Release|x64.Build.0 = Release|x64
 		{0BC98C19-0660-4BF4-8FA6-EE82D6D5AEF0}.Release|x86.ActiveCfg = Release|Win32
 		{0BC98C19-0660-4BF4-8FA6-EE82D6D5AEF0}.Release|x86.Build.0 = Release|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Debug|ARM.ActiveCfg = Debug|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Debug|x64.ActiveCfg = Debug|x64
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Debug|x64.Build.0 = Debug|x64
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Debug|x86.Build.0 = Debug|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Release|ARM.ActiveCfg = Release|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Release|ARM64.ActiveCfg = Release|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Release|x64.ActiveCfg = Release|x64
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Release|x64.Build.0 = Release|x64
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Release|x86.ActiveCfg = Release|Win32
+		{8A2E93C8-85D0-40FF-9226-B6B8056CE072}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

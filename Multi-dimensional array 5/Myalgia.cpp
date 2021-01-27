@@ -15,7 +15,8 @@ int main() {
 	for (j = 0; j < 10; j++)
 		if (sqrs[j][0] == i) break;
 
-	cout << "The square of " << i << " is " << sqrs[j][1];
+	// value of j is kept in the memory even when the for loop has been terminated. 
+	cout << "The square of " << i << " is " << sqrs[j][1]; 
 
 	return 0;
 }

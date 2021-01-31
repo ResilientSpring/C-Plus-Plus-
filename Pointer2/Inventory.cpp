@@ -3,13 +3,9 @@ using namespace std;
 
 int main() {
 
-	// In a declaration statement, preceding a variable name with an * causes that variable to be a pointer.
-
-	int total; 
-	int *ptr;   // A pointer is an object that contains a memory address. 
+	int total;
+	int ptr;   
 	int val;
-
-	// ----- End of declaration statements. 
 
 	total = 3200; // Assign 3200 to total.
 	ptr = &total; // get address of total.  & is a operator that returns the memory address of its operand.

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Vestigial.cpp">
+    <ClCompile Include="Not_recommended.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

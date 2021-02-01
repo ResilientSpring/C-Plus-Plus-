@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e462cea3-2cc7-42bb-95c5-4393b1ec4ec6}</ProjectGuid>
-    <RootNamespace>Escapesequences2</RootNamespace>
+    <ProjectGuid>{5dec9f44-3f56-4977-918a-459149f76ec2}</ProjectGuid>
+    <RootNamespace>Readstring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Vestigial2.cpp" />
+    <ClCompile Include="Inventory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

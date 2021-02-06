@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Accessing array elements wi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Accessing array element using pointer arithmetic", "Accessing array element using pointer arithmetic\Accessing array element using pointer arithmetic.vcxproj", "{AF395CE5-789F-499E-917E-6CB9F4DA5217}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer 4", "Pointer 4\Pointer 4.vcxproj", "{2C095282-9D99-413D-87F7-4AD329789B6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1105,6 +1107,18 @@ Global
 		{AF395CE5-789F-499E-917E-6CB9F4DA5217}.Release|x64.Build.0 = Release|x64
 		{AF395CE5-789F-499E-917E-6CB9F4DA5217}.Release|x86.ActiveCfg = Release|Win32
 		{AF395CE5-789F-499E-917E-6CB9F4DA5217}.Release|x86.Build.0 = Release|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Debug|x64.ActiveCfg = Debug|x64
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Debug|x64.Build.0 = Debug|x64
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Debug|x86.Build.0 = Debug|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Release|ARM.ActiveCfg = Release|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Release|ARM64.ActiveCfg = Release|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Release|x64.ActiveCfg = Release|x64
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Release|x64.Build.0 = Release|x64
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Release|x86.ActiveCfg = Release|Win32
+		{2C095282-9D99-413D-87F7-4AD329789B6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

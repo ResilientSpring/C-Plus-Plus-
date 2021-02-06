@@ -17,6 +17,7 @@ int main() {
 	// now, index p
 	for ( i = 0; i < p[i]; i++)
 	{
+		// In C++, the statement p[i] is functionally identical to *(p+i). See the Textbook page on 154.
 		if (isupper(p[i]))
 			p[i] = tolower(p[i]);
 		else if (islower(p[i]))     // Access p as if it were array. 

@@ -12,9 +12,12 @@ int main() {
 
 	cout << "Original string: " << str << "\n";
 
+
+	// The loop iterates until the null terminating str is indexed. 
+	// Since a null is zero(false), the loop stops. 
 	for ( i = 0; str[i]; i++)
 	{
-		if (isupper(str[i]))
+		if (isupper(str[i]))  // isupper() function returns true when its argument is an uppercase letter. 
 			str[i] = tolower(str[i]);
 		else if (islower(str[i]))
 			str[i] = toupper(str[i]);

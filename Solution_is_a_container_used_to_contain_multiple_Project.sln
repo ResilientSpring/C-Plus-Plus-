@@ -163,6 +163,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer for string constant
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reversing a string in place", "Reversing a string in place\Reversing a string in place.vcxproj", "{30B02A87-0A7B-4B44-9F4C-F2FE15FF4D5F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer in array", "Pointer in array\Pointer in array.vcxproj", "{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1147,6 +1149,18 @@ Global
 		{30B02A87-0A7B-4B44-9F4C-F2FE15FF4D5F}.Release|x64.Build.0 = Release|x64
 		{30B02A87-0A7B-4B44-9F4C-F2FE15FF4D5F}.Release|x86.ActiveCfg = Release|Win32
 		{30B02A87-0A7B-4B44-9F4C-F2FE15FF4D5F}.Release|x86.Build.0 = Release|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Debug|ARM.ActiveCfg = Debug|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Debug|x64.ActiveCfg = Debug|x64
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Debug|x64.Build.0 = Debug|x64
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Debug|x86.Build.0 = Debug|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Release|ARM.ActiveCfg = Release|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Release|ARM64.ActiveCfg = Release|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Release|x64.ActiveCfg = Release|x64
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Release|x64.Build.0 = Release|x64
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Release|x86.ActiveCfg = Release|Win32
+		{7FFF3BD8-D7C1-4BB1-9E88-0D6CF1868C5E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

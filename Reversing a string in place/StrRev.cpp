@@ -17,6 +17,8 @@ int main() {
 	int len; 
 	char t;
 
+	// --------------- End of declaration. 
+
 	cout << "Original: " << str << "\n";
 
 	len = strlen(str);

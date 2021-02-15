@@ -14,7 +14,7 @@ int main() {
 	q = &p;  // Assign q the address of p which is a pointer.
 
 	// Prints the value of x.
-	cout << **q; // Returns the value at the memory address of q which is a pointer.
+	cout << **q; // Returns the value at the memory address of q which is a pointer, and then returns the value at the memory address of p.
 
 	return 0;
 }

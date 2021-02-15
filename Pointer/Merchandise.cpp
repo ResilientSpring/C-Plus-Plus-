@@ -9,12 +9,12 @@ int main() {
 	int *ptr;   // A pointer is an object that can contain a memory address. 
 	int val;
 
-	// ----- End of declaration statements. 
+	// ----- End of declaration statements.    See also: Array declaration.
 
 	total = 3200; // Assign 3200 to total.
 	ptr = &total; // get address of total.  & is an operator that returns the memory address of its operand.
 
-	val = *ptr;  // * is an operator that returns the value at the memory address. 
+	val = *ptr;  // * is an operator that returns the value at the memory address of its operand. 
 
 	cout << "Total is: " << val << '\n';
 

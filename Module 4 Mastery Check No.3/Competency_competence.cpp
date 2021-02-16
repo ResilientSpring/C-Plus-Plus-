@@ -16,7 +16,7 @@ int main() {
 
 	int storage[10];
 
-	cout << "Insert 10 integers and the program will check if there is are duplicate integers. \n";
+	cout << "Insert 10 integers and the program will check if there are duplicate integers in the array. \n";
 
 	for (int i = 0; i < 10; i++)
 	{
@@ -76,11 +76,9 @@ int main() {
 
 	}
 
-	int j = 0;
-
 	for (int i = 0; i < 10; i++)
 	{
-		for (j = 10 - 1; j >= 0; j--) {
+		for (int j = 10 - 1; j >= 0; j--) {
 
 			if (j == i) continue;
 

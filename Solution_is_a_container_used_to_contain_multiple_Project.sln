@@ -169,6 +169,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer_to_a_pointer", "Poi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Module 4 Mastery Check No.3", "Module 4 Mastery Check No.3\Module 4 Mastery Check No.3.vcxproj", "{82F531C1-440C-400F-ADF4-3A7CBE8A3B44}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Module 4 Mastery Check No.3 Second version", "Module 4 Mastery Check No.3 Second version\Module 4 Mastery Check No.3 Second version.vcxproj", "{9902331D-D353-494E-B923-2ED64088A124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1189,6 +1191,18 @@ Global
 		{82F531C1-440C-400F-ADF4-3A7CBE8A3B44}.Release|x64.Build.0 = Release|x64
 		{82F531C1-440C-400F-ADF4-3A7CBE8A3B44}.Release|x86.ActiveCfg = Release|Win32
 		{82F531C1-440C-400F-ADF4-3A7CBE8A3B44}.Release|x86.Build.0 = Release|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Debug|ARM.ActiveCfg = Debug|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Debug|x64.ActiveCfg = Debug|x64
+		{9902331D-D353-494E-B923-2ED64088A124}.Debug|x64.Build.0 = Debug|x64
+		{9902331D-D353-494E-B923-2ED64088A124}.Debug|x86.ActiveCfg = Debug|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Debug|x86.Build.0 = Debug|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Release|ARM.ActiveCfg = Release|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Release|ARM64.ActiveCfg = Release|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Release|x64.ActiveCfg = Release|x64
+		{9902331D-D353-494E-B923-2ED64088A124}.Release|x64.Build.0 = Release|x64
+		{9902331D-D353-494E-B923-2ED64088A124}.Release|x86.ActiveCfg = Release|Win32
+		{9902331D-D353-494E-B923-2ED64088A124}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

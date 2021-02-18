@@ -13,7 +13,7 @@ int main() {
 
 	int storage[20];
 
-	cout << "Insert 10 integers and the program will check if there are duplicate integers in the array. \n";
+	cout << "Insert 20 integers and the program will check if there are duplicate integers in the array. \n";
 
 	for (int i = 0; i < 20; i++)
 	{
@@ -47,7 +47,7 @@ int main() {
 		}
 	}
 
-	cout << "\n" << "The 10 numbers you inserted: ";
+	cout << "\n" << "The 20 numbers you inserted: ";
 	for (int i = 0; i < 20; i++)
 	{
 		cout << storage[i];

@@ -1,5 +1,5 @@
 /*
-Write a program that prompts the user for two strings and then compares the strings 
+Write a program that prompts the user for two strings and then compares the strings
 for equality, but ignores case differences. Thus, "ok" and "OK" will compare as equal.
 */
 
@@ -17,6 +17,7 @@ int main() {
 	string first_string, second_string, first_string_transformed, second_string_transformed;
 	string destination_first_string_transformed, destination_second_string_transformed;
 	long first_substract_from_second, first_intermediate, second_intermediate;
+	int i = 0;
 
 	cout << "Input two strings and the program will compare them for equality. \n";
 	cout << "Case differences are ignored so \"ok\" and \"OK\" will compare as equal.\n";
@@ -24,41 +25,26 @@ int main() {
 	cout << "Now, enter the first string: ";
 	// getline() will read the ENTIRE line, leading to variable overflow. 
 //	getline(cin, first_string);
-	gets_s(array_first_string);  // [16], [15]
+	fgets(array_first_string, 210, stdin);
+//	gets_s(array_first_string);  // [16], [15]
 
 	cout << "Now, enter the second string: ";
-//	getline(cin, second_string);
+	//	getline(cin, second_string);
 	fgets(array_second_string, 210, stdin); // [17]
+
+	cout << "The result of comparing two strings you entered for equality: ";
+
+	for (i = 0; array_first_string[i]; i++)
+		array_first_string[i] = tolower(array_first_string[i]);
+
+	for (i = 0; array_second_string[i]; i++)
+		array_second_string[i] = tolower(array_second_string[i]);
 
 	// Convert character array of string into string class
 	first_string = array_first_string;  // [18]
 	second_string = array_second_string;  // [18]
 
-	cout << "The result of comparing two strings you entered for equality: ";
-
-	// Copy first_string to first_string_transformed that will be transformed into character array.
-	first_string_transformed.assign(first_string);
-
-	// Copy second_string to second_string_transformed that will be transformed into character array.
-	second_string_transformed.assign(second_string);
-
-	// Accommodate destination strings to fit the size of the source strings.
-	destination_first_string_transformed.resize(first_string_transformed.size());
-	destination_second_string_transformed.resize(second_string_transformed.size());
-
-	// Convert the source string to lower case and store the result in destination string.
-	transform(first_string_transformed.begin(), first_string_transformed.end(), destination_first_string_transformed.begin(), ::tolower);
-	transform(second_string_transformed.begin(), second_string_transformed.end(), destination_second_string_transformed.begin(), ::tolower);
-
-	// Save the converted values to variables for later arithmetic.
-	first_intermediate = stol(first_string);
-	second_intermediate = stol(second_string);
-
-//	first_substract_from_second = stol(second_string) - stol(first_string);
-
-	first_substract_from_second = first_intermediate - second_intermediate;
-
-	if (first_string.compare(second_string) == 0  || abs(first_substract_from_second) == 32 && destination_first_string_transformed.compare(destination_second_string_transformed) == 0)
+	if (first_string.compare(second_string) == 0)
 		cout << "Strings are equal.";
 	else
 		cout << "Strings are unequal.";
@@ -68,7 +54,7 @@ int main() {
 
 /*
 
-References: 
+References:
 
 1. https://www.geeksforgeeks.org/c-string-class-applications-set-2/
 2. https://docs.microsoft.com/en-us/dotnet/api/system.string.compare?view=net-5.0

@@ -23,7 +23,7 @@ int main() {
 	cout << "Case differences are ignored so \"ok\" and \"OK\" will compare as equal.\n";
 
 	cout << "Now, enter the first string: ";
-	getline(cin, first_string, '\n');
+	getline(cin, first_string, '\n'); // [19]
 
 	cout << "Now, enter the second string: ";
 	getline(cin, second_string, '\n');
@@ -65,5 +65,6 @@ References:
 16. https://www.cplusplus.com/reference/cstdio/gets/
 17. https://www.cplusplus.com/reference/cstdio/fgets/
 18. https://stackoverflow.com/a/33317961/14900011
+19. https://stackoverflow.com/questions/18776961/how-to-i-read-in-a-line-and-delimit-it-with-in-c
 
 */

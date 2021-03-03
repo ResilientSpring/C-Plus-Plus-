@@ -195,6 +195,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Module 1 Mastery Check No.1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Signed and unsigned integers", "Signed and unsigned integers\Signed and unsigned integers.vcxproj", "{2B8483BA-F82C-435D-AB11-2B12637CC5AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Character calculations", "Character calculations\Character calculations.vcxproj", "{77278CA2-760C-41FF-BC26-A04D1F94F4FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1371,6 +1373,18 @@ Global
 		{2B8483BA-F82C-435D-AB11-2B12637CC5AC}.Release|x64.Build.0 = Release|x64
 		{2B8483BA-F82C-435D-AB11-2B12637CC5AC}.Release|x86.ActiveCfg = Release|Win32
 		{2B8483BA-F82C-435D-AB11-2B12637CC5AC}.Release|x86.Build.0 = Release|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Debug|ARM.ActiveCfg = Debug|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Debug|x64.ActiveCfg = Debug|x64
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Debug|x64.Build.0 = Debug|x64
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Debug|x86.Build.0 = Debug|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|ARM.ActiveCfg = Release|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|ARM64.ActiveCfg = Release|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x64.ActiveCfg = Release|x64
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x64.Build.0 = Release|x64
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x86.ActiveCfg = Release|Win32
+		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

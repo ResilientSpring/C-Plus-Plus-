@@ -197,6 +197,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Signed and unsigned integer
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Character calculations", "Character calculations\Character calculations.vcxproj", "{77278CA2-760C-41FF-BC26-A04D1F94F4FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Boolean2", "Backward-looking\Backward-looking.vcxproj", "{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1385,6 +1387,18 @@ Global
 		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x64.Build.0 = Release|x64
 		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x86.ActiveCfg = Release|Win32
 		{77278CA2-760C-41FF-BC26-A04D1F94F4FD}.Release|x86.Build.0 = Release|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Debug|x64.ActiveCfg = Debug|x64
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Debug|x64.Build.0 = Debug|x64
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Debug|x86.Build.0 = Debug|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|ARM.ActiveCfg = Release|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|ARM64.ActiveCfg = Release|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x64.ActiveCfg = Release|x64
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x64.Build.0 = Release|x64
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x86.ActiveCfg = Release|Win32
+		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

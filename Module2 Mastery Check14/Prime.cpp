@@ -20,6 +20,12 @@ int main() {
 		if (number_of_factors_including_1 == 1)
 		{
 			cout << i << " ";
+
+			number_of_factors_including_1 = 0;
+		}
+		else
+		{
+			number_of_factors_including_1 = 0;
 		}
 
 	}

@@ -199,6 +199,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Character calculations", "C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Boolean2", "Backward-looking\Backward-looking.vcxproj", "{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Module2 Mastery Check14", "Module2 Mastery Check14\Module2 Mastery Check14.vcxproj", "{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1399,6 +1401,18 @@ Global
 		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x64.Build.0 = Release|x64
 		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x86.ActiveCfg = Release|Win32
 		{C501566D-5E2B-46B8-B4AB-0BA30C7BD18D}.Release|x86.Build.0 = Release|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Debug|ARM.ActiveCfg = Debug|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Debug|x64.ActiveCfg = Debug|x64
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Debug|x64.Build.0 = Debug|x64
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Debug|x86.Build.0 = Debug|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Release|ARM.ActiveCfg = Release|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Release|ARM64.ActiveCfg = Release|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Release|x64.ActiveCfg = Release|x64
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Release|x64.Build.0 = Release|x64
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Release|x86.ActiveCfg = Release|Win32
+		{DD3262D8-5E5D-4F27-AF3A-8C894A69C603}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

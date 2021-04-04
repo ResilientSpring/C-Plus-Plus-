@@ -213,6 +213,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "For_each", "For_each\For_ea
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "For_each2", "For_each2\For_each2.vcxproj", "{05328D50-7AE7-4821-8D58-9594154E70BC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Get a column in 2D array", "Get a column in 2D array\Get a column in 2D array.vcxproj", "{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -1497,6 +1499,18 @@ Global
 		{05328D50-7AE7-4821-8D58-9594154E70BC}.Release|x64.Build.0 = Release|x64
 		{05328D50-7AE7-4821-8D58-9594154E70BC}.Release|x86.ActiveCfg = Release|Win32
 		{05328D50-7AE7-4821-8D58-9594154E70BC}.Release|x86.Build.0 = Release|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Debug|ARM.ActiveCfg = Debug|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Debug|x64.ActiveCfg = Debug|x64
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Debug|x64.Build.0 = Debug|x64
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Debug|x86.Build.0 = Debug|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Release|ARM.ActiveCfg = Release|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Release|ARM64.ActiveCfg = Release|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Release|x64.ActiveCfg = Release|x64
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Release|x64.Build.0 = Release|x64
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Release|x86.ActiveCfg = Release|Win32
+		{0CFDB20A-BEC1-4BF2-9636-AA10BBCE21C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

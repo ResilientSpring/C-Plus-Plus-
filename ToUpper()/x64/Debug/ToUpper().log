@@ -1,0 +1,2 @@
+﻿  Inventory.cpp
+C:\Users\ted10014\SkyDrive\VisualStudio\Podium\Solution_is_a_container_used_to_contain_multiple_Project\ToUpper()\Inventory.cpp(12,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
